@@ -1,0 +1,27 @@
+# DSO-576 setup test project — students clone this during laptop setup to
+# verify that uv + Python + pandas install and run on their machine.
+# (This repo is a TEST harness only; weekly course material lives in the
+# per-week course repos shown on the course app's HW page.)
+[project]
+name = "dso576-00-setup"
+version = "1.0.0"
+description = "DSO-576 laptop-setup test: proves uv, Python, and pandas work"
+requires-python = ">=3.11"
+# Every library the course (and your AI agents) will lean on: dataframes,
+# numerics, plotting of various kinds, Excel reading, databases, web apps.
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.26",
+    "streamlit>=1.30",
+    "matplotlib>=3.8",
+    "plotly>=5.18",
+    "seaborn>=0.13",
+    "altair>=5.0",
+    "openpyxl>=3.1",
+    "xlrd>=2.0",
+    "sqlalchemy>=2.0",
+    "psycopg2-binary>=2.9",
+    "psycopg[binary]>=3.1",
+    "requests>=2.31",
+    "ipykernel>=6.29",
+]
