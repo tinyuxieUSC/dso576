@@ -13,7 +13,7 @@
 
 **The numbers behind it.**
 
-| Figure | Value | What it counts |
+| Figure | Value | What it counts |awdawd
 |---|---:|---|
 | Family Table members in the renewal base | 114 | Rows in `members.csv` where `plan = family` and `reminder_sent = 1` |
 | Family Table renewals | 80 | Rows where `plan = family`, `reminder_sent = 1`, and `renewed = 1` |
