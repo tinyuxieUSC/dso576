@@ -34,7 +34,7 @@ I used `members.csv`, especially the `plan`, `reminder_sent`, and `renewed` colu
 
 ## 3. How this memo was produced
 
-**What you asked the agent for.** I asked the agent to execute `analysis-prompt.md`, use the Q2 renewal data in `members.csv`, follow the metric definition in `notes/metrics.md` and the format in `report_template.md`, and reuse or run `plan_summary.py`. The requested outputs were a one-page `plan_report.html` and a short `email_to_owner.md` recommending which plan Dana should retire.
+**What you asked the agent for.** I asked the agent to execute `analysis-prompt.md`, use the Q2 renewal data in `members.csv`, follow the metric definition in `notes/metrics.md`and the format in `report_template.md`, and reuse or run `plan_summary.py`. The requested outputs were a one-page `plan_report.html` and a short `email_to_owner.md` recommending which plan Dana shouqld retire.
 
 **What it produced.** The agent produced a report and email that both identify Family Table as the Q2 retire candidate. They report that Family Table renewed 80 of 114 members, or 70.2%, while Classic 10 renewed 90 of 116, or 77.6%. They also report 429 renewals out of 546 members across all six plans, or 78.6%. The agent notes that the supplied data contain Q2 only, so it cannot determine Family Table's prior-quarter standing or fully verify the two-quarter rule.
 
